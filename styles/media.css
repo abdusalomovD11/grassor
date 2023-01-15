@@ -1,0 +1,38 @@
+@media (max-width:1200px){
+    .commerce__block,.jacket__block,.footer__block  {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+        padding:0 10px;
+    }
+}
+@media (max-width:992px){
+    .header__nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width:768px){
+    .intro__title,.section__title,.project__title{
+        font-size: 30px;
+        line-height: 40px;
+        padding: 10px 30px;
+        text-align: center;
+    }
+    .intro__button,.project__button{
+        padding: 10px 25px;
+    }
+    .project__title{
+        padding: 0;
+    }
+}
+@media (max-width:576px){
+    .header__list{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 15px;
+    }
+    .section__text{
+        width: 90%;
+    }
+}
